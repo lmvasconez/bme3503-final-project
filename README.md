@@ -18,8 +18,15 @@ This application is designed for biomedical engineering students, clinicians, an
 
 ### Running the Application
 
-1. Launch the Streamlit app by typing "streamlit run app.py" in the Codespaces terminal
-2. If prompted, click "Open in Browser."
+1. Create and activate a virtual environment
+- In the Codespaces terminal:
+  - python -m venv .venv
+  - source .venv/bin/activate
+2. Install dependencies
+  - pip install streamlit numpy pandas scipy matplotlib wfdb
+3. Launch the Streamlit app
+  - streamlit run app.py
+4. Control+click the "Local URL" link to open the app in the browser.
 
 ## Usage Guide
 
